@@ -1,11 +1,12 @@
 # 17 Computer Science for JavaScript: Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+* Matching an Email &ndash; `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ## Summary
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+Matching an Email &ndash; `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+
 As a very visual person, something beneficial for this project was placing the regular expression in the website regex pal. From there, users can test strings. When particular strings match an expression, then they turn blue to verify a match. The user can hover over the different groups that make up the expression, and the program explains what each of the different pieces means and represents.
 As the user hovers over those different parts, it will tell you what the purpose of those sets of letters or characters was to help make up a particular expression, and then at the bottom of their page, they also have a nice little cheat sheet.
 Initially, when I looked at just the cheat sheet, though and tried to figure out how everything was happening and how all of the pieces fit together, I was confused. So I also tried to build one, but I think just by looking at the cheat sheet at the bottom of the page where it just gives you an actual map of where to go, it is difficult because if you are learning, it was confusing for me to know does everything need parentheses or a bracket around it. So I had a difficult time when I tried to play around and build one at first. However, it was a little bit easier to use the regex pal and put the expression I wanted to try out in the regular expression section and then break down what was happening piece by piece. Moreover, I just used a class example.
@@ -49,7 +50,7 @@ match one or more than one of the tokens
 
 ### Anchors
 
-Anchors include symbols like a carrot and a $ at the end of the string or \A letter to describe word boundaries or the lack of. The \letter means being a or end of a string.
+Anchors include symbols like a carrot and a dollar sign at the end of the string or \A letter to describe word boundaries or the lack of. The \letter means being a or end of a string.
 About anchors, an example of an anchor would be a carrot a $. Anchors or a way of telling you where you’re at, so basically, is it that start or the end? \A refers to the start of a string.
 It is probably important to note as we start to talk about anything to do with regex that regex can vary a little bit depending on which language you are looking at. Some characters are the same across multiple languages and have the same meaning, but that is not true for all of them, so it is to find good references. In the documentation I looked at, some symbols or characters or tokens had notes with them saying all engines except JavaScript or this with the exception of Ruby or all of these are the same depending on the language, so it is important to watch out for that.
 Quantifiers
@@ -80,21 +81,7 @@ when you see this in a regular expression, it is not just talking about finding 
 
 In JavaScript, when we are talking about flags, there are only six flags that work with JavaScript and retro regular expressions; those are “I,” which is a flag that searches for casein sensitive there is a G this flag looks for anything without the specified request. M is multiline and makes it so that you can use a dot to match.
 The character U flag helps to process pairs correctly, and y is the sticky flag it looks for a particular position.
-Flags
-Regular expressions may have flags that affect the search.
-There are only 6 of them in JavaScript:
-i
-With this flag, the search is case-insensitive: no difference between A and a (see the example below).
-g
-With this flag, the search looks for all matches without it – only the first match is returned.
-m
-Multiline mode (covered in the chapter Multiline mode of anchors ^ $, flag “m”).
-s
-Enables “dotall” mode, which allows a dot . to match newline character \n (covered in the chapter Character classes).
-u
-Enables full Unicode support; the flag enables the correct processing of surrogate pairs. More about that in the chapter Unicode: flag “u” and class \p{...}.
-y
-“Sticky” mode: searching at the exact position in the text (covered in the chapter Sticky flag “y”, searching at position)
+
 <https://javascript.info/regexp-introduction>
 
 ### Grouping and Capturing
@@ -150,25 +137,25 @@ According to this website, look ahead and look behind, which can also be known a
 Look around can match characters, and then they return a result of either a match or no match.
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
 Samantha Peterson
+
+![This is an image](https://twitter.com/CodingAndDesign/photo)
 
 Github: <https://github.com/SamanthaPeterson>
 Linkedin: <https://www.linkedin.com/in/samantha-peterson-web-developer-photographer/>
 Email: photographer.samantha@live.com
-References
+
+## References
 <http://www.rexegg.com/regex-anchors.html>
 <https://cs.lmu.edu/~ray/notes/regex/>
 <https://www.regular-expressions.info/lookaround.html>
 <https://javascript.info/regexp-backreferences>
 <https://javascript.info/regexp-greedy-and-lazy>
-
 <https://www.javascripttutorial.net/regular-expression-word-boundaries/>
 
 
 
-Links to application and commit history
+## Links to application and commit history
 https://github.com/SamanthaPeterson/Computer-science-for-javascript-17
 https://gist.github.com/SamanthaPeterson
 https://gist.github.com/SamanthaPeterson/84682013a1b31bd8ff048276d61ba547
