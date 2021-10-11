@@ -1,6 +1,7 @@
 # 17 Computer Science for JavaScript: Regex Tutorial
 
-* Matching an Email &ndash; `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+Matching an Email &ndash; `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+Regex. There are some tricky concepts to understand, but regular expressions can do some pretty incredible things. Here we will look at a particular example that of matching an email using regular expression. Then we will move on to breaking down components of regular expressions. 
 
 ## Table of Contents
 
@@ -29,7 +30,6 @@
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 Matching an Email &ndash; `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 As a very visual person, something beneficial for this project was placing the regular expression in the website regex pal. From there, users can test strings. When particular strings match an expression, then they turn blue to verify a match. The user can hover over the different groups that make up the expression, and the program explains what each of the different pieces means and represents.
 As the user hovers over those different parts, it will tell you what the purpose of those sets of letters or characters was to help make up a particular expression, and then at the bottom of their page, they also have a nice little cheat sheet.
