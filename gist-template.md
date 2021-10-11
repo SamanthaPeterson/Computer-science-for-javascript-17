@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# 17 Computer Science for JavaScript: Regex Tutorial
 
 Introductory paragraph (replace this with your text)
 
