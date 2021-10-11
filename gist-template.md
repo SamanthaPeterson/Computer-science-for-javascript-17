@@ -165,3 +165,10 @@ References
 <https://javascript.info/regexp-greedy-and-lazy>
 
 <https://www.javascripttutorial.net/regular-expression-word-boundaries/>
+
+
+
+Links to application and commit history
+https://github.com/SamanthaPeterson/Computer-science-for-javascript-17
+https://gist.github.com/SamanthaPeterson
+https://gist.github.com/SamanthaPeterson/84682013a1b31bd8ff048276d61ba547
